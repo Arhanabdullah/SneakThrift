@@ -7,7 +7,7 @@
 :root {
     --fontcolor: rgb(21, 20, 20);
     --navbar: #f6f9d2;
-    --buttoncolor: #9e9454;
+    --buttoncolor: rgb(113, 113, 48);
     --txthover: rgb(192, 62, 62);
     --bgcolor: rgb(255, 255, 239);
 }
