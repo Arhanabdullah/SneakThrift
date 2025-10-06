@@ -42,7 +42,7 @@
 } */
 .left button:hover {
   transform: translateY(-5px) scale(1.05);
-  background-color: #fffad9;
+  background: linear-gradient(45deg,#c4bd8fc1,rgb(113, 113, 48));
   color: var(--txthover);
   box-shadow: 0 4px 10px rgb(120, 120, 69);
 }
@@ -58,13 +58,13 @@
 }
 .right img:hover {
 
-  animation: 2s spin 0.5s linear alternate 12 ;
+  animation: 3s spin 0.5s linear alternate 2 ;
 }
 
 @keyframes spin {
   0% {
     scale: 1;
-    transform: translateX(30px) translateY(30px);
+    transform: translateX(30px) translateY(30px) rotate(0deg);
   }
   25% {
     scale: 0.75;
