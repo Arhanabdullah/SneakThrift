@@ -2,19 +2,18 @@ body {
   font-family: 'Poppins', sans-serif;
   background: var(--bgcolor);
   margin: 0;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .cart-container {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 1.6rem 2rem;
   gap: 2rem;
 }
 
-
 .cart-left {
-  flex: 2;
+  flex: 1;
 }
 
 .cart-left h1 {
